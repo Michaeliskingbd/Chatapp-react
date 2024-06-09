@@ -1,0 +1,108 @@
+.auth-page_wrapper {
+    display: flex;
+ 
+
+    .auth-page_wrapper_left {
+        flex: 35%;
+        padding: 40px 40px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        p {
+            color: #15ABFF;
+        }
+        .top {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto ;
+            width: fit-content;
+            
+        }
+   
+        .chatbot {
+            width: 50px;
+            height: 50px;
+            font-size: 9px;
+            background: #6D31ED;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 {
+            color:  #9095A1;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            input {
+                height: 47px;
+                width: 100%;
+                margin-bottom: 20px;
+                font-size: 12px;
+                color: #363E64;
+                text-indent:5px;
+                border: 1px solid rgb(175, 173, 173, 0.2);
+                border-radius: 4px;
+                :focus {
+                    outline: none;
+                }
+            }
+            label {
+                margin-bottom: 5px;
+                color: #FF56A5;
+                font-size: 12px;
+            }
+            .btn {
+                height: 47px;
+                background: #6D31ED;
+                border: none;
+                font-size: 16px;
+                background: #15ABFF;
+                color: #ffffff;
+                margin-top: 15px;
+            }
+            
+        }
+       
+    }
+    .auth-page_wrapper_right {
+    
+       
+        img {
+            width: 100%;
+            
+            
+         
+            
+        }
+    }
+    
+}
+.btn {
+    height: 47px;
+    background: #6D31ED;
+    border: none;
+    font-size: 16px;
+    background: #15ABFF;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+    .auth-page_wrapper {
+        display: flex;
+        flex-direction: column;
+       
+       
+        .auth-page_wrapper_right {
+            display: none;
+        }
+        
+    }
+
+}
